@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:latest
+    container_name: web
+    ports:
+      - "80:80"
+    volumes:
+      - ./web/oc:/var/www/html
+      - ./web/storage:/var/www/storage
+      - ./conf/nginx.conf:/etc/nginx/conf.d/default.conf
+    links:
+      - php-fpm
+    networks:
+      - web_network
+      
+  php-fpm:
+    build:
+      context: .
+    container_name: php
+    volumes:
+      - ./web/oc:/var/www/html
+      - ./web/storage:/var/www/storage
+    networks:
+      - web_network
+
+  mysql:
+    image: 'mariadb:latest'
+    container_name: mysql
+    ports:
+       - '3306:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: 't0rpas'
+      MYSQL_DATABASE: 'opencart'
+      MYSQL_USER: 'dbus3r'
+      MYSQL_PASSWORD: 'dbpas'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'no'
+    volumes:
+      # - ./conf/opencart.sql:/docker-entrypoint-initdb.d/dump.sql
+      - './db:/var/lib/mysql'
+    networks:
+      - web_network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: pma
+    links:
+      - mysql
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: dbus3r
+      PMA_PASSWORD: dbpas
+      MYSQL_ROOT_PASSWORD: t0rpas
+    restart: always
+    ports:
+      - 81:80
+    networks:
+      - web_network
+
+networks:
+  web_network:
+    driver: bridge

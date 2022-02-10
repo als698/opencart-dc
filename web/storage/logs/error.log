@@ -1,0 +1,37 @@
+2022-02-10 15:16:12 - PHP Warning:  glob(): At least one of the passed flags is invalid or not supported on this platform in /var/www/html/admin/controller/marketplace/extension.php on line 32
+2022-02-10 15:16:12 - PHP Warning:  foreach() argument must be of type array|object, bool given in /var/www/html/admin/controller/marketplace/extension.php on line 34
+2022-02-10 15:17:08 - PHP Warning:  glob(): At least one of the passed flags is invalid or not supported on this platform in /var/www/html/admin/controller/marketplace/extension.php on line 41
+2022-02-10 16:26:53 - PHP Unknown:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/system/library/db/mysqli.php on line 53
+2022-02-10 16:33:39 - PHP Unknown:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/system/library/db/mysqli.php on line 53
+2022-02-10 16:33:39 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/system/framework.php:42) in /var/www/html/catalog/controller/startup/session.php on line 25
+2022-02-10 16:33:39 - PHP Unknown:  Automatic conversion of false to array is deprecated in /var/www/html/catalog/controller/startup/startup.php on line 103
+2022-02-10 16:33:39 - PHP Unknown:  Return type of Twig\Node\Node::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/storage/vendor/twig/twig/src/Node/Node.php on line 161
+2022-02-10 16:33:39 - PHP Unknown:  Return type of Twig\Node\Node::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/storage/vendor/twig/twig/src/Node/Node.php on line 166
+2022-02-10 16:33:39 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:39 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:39 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:39 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:42 - PHP Unknown:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/system/library/db/mysqli.php on line 53
+2022-02-10 16:33:42 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/system/framework.php:42) in /var/www/html/catalog/controller/startup/session.php on line 25
+2022-02-10 16:33:42 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:42 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:42 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:42 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:43 - PHP Unknown:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/system/library/db/mysqli.php on line 53
+2022-02-10 16:33:43 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/system/framework.php:42) in /var/www/html/catalog/controller/startup/session.php on line 25
+2022-02-10 16:33:44 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:44 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:44 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:44 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:45 - PHP Unknown:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/system/library/db/mysqli.php on line 53
+2022-02-10 16:33:45 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/system/framework.php:42) in /var/www/html/catalog/controller/startup/session.php on line 25
+2022-02-10 16:33:45 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:45 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:45 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:45 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:47 - PHP Unknown:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/system/library/db/mysqli.php on line 53
+2022-02-10 16:33:47 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/system/framework.php:42) in /var/www/html/catalog/controller/startup/session.php on line 25
+2022-02-10 16:33:47 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:47 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:47 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45
+2022-02-10 16:33:47 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /var/www/html/catalog/model/catalog/product.php on line 45

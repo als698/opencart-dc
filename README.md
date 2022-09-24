@@ -18,7 +18,7 @@ Database port: 3306
 ## Credentials
 Opencart Admin:  
 - user: padmin  
-- password: padmin  
+- password: pasmin  
 
 Database:  
 - root password: t0rpas  

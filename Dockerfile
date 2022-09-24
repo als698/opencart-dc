@@ -8,5 +8,3 @@ RUN docker-php-ext-install gd
 RUN docker-php-ext-install zip
 RUN docker-php-ext-install mysqli pdo pdo_mysql pdo_pgsql
 RUN pecl install mcrypt
-
-ADD conf/php.ini /usr/local/etc/php/conf.d/

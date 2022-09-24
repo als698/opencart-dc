@@ -22,6 +22,7 @@ services:
     volumes:
       - ./web/oc:/var/www/html
       - ./web/storage:/var/www/storage
+      - ./conf/php.ini:/usr/local/etc/php/conf.d/php.ini
     networks:
       - web_network
 

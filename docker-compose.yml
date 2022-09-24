@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   web:
@@ -14,7 +14,7 @@ services:
       - php-fpm
     networks:
       - web_network
-      
+
   php-fpm:
     build:
       context: .
@@ -26,19 +26,19 @@ services:
       - web_network
 
   mysql:
-    image: 'mariadb:latest'
+    image: "mariadb:latest"
     container_name: mysql
     ports:
-       - '3306:3306'
+      - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: 't0rpas'
-      MYSQL_DATABASE: 'opencart'
-      MYSQL_USER: 'dbus3r'
-      MYSQL_PASSWORD: 'dbpas'
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'no'
+      MYSQL_ROOT_PASSWORD: "t0rpas"
+      MYSQL_DATABASE: "opencart"
+      MYSQL_USER: "dbus3r"
+      MYSQL_PASSWORD: "dbpas"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "no"
     volumes:
-      - ./conf/opencart.sql:/docker-entrypoint-initdb.d/dump.sql # change opencart.sql with your db to import it
-      - './db:/var/lib/mysql'
+      # - ./conf/opencart.sql:/docker-entrypoint-initdb.d/dump.sql # change opencart.sql with your db to import it
+      - ./db:/var/lib/mysql
     networks:
       - web_network
 

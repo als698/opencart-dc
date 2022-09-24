@@ -37,7 +37,7 @@ services:
       MYSQL_PASSWORD: "dbpas"
       MYSQL_ALLOW_EMPTY_PASSWORD: "no"
     volumes:
-      # - ./conf/opencart.sql:/docker-entrypoint-initdb.d/dump.sql # change opencart.sql with your db to import it
+      - ./conf/opencart.sql:/docker-entrypoint-initdb.d/dump.sql # change opencart.sql with your db to import it
       - ./db:/var/lib/mysql
     networks:
       - web_network
